@@ -3,6 +3,10 @@
 // we accept strings and numbers and booleans and objects and try to double them
 // and expect output of the type
 var aNumber = 8;
+var aString = "Week2!";
+var aBoolean = true;
+var anArray = ['First array' , 209 , true];
+var nonObject;
 
 var theDoubler = function (someInput) {
 	// typeof is a built in javascript tool that allows us to find the type of an object
@@ -25,20 +29,16 @@ var theDoubler = function (someInput) {
 	} else {
 		console.log("I can't double this");
 	}
-
-
-
 	// if the user inputs a boolean (true or false)
 	// log "I won't double this" if it is false
 	// log "Super-duper true" if it is true
-
-
 	// if it's none of those, but it is an object, log "everything is an object"
-
-
 	// if it is anything else, print out "I can't double this"
 
-}
-
+};
 
 theDoubler(aNumber);
+theDoubler(aString);
+theDoubler(aBoolean);
+theDoubler(anArray);
+theDoubler(nonObject);

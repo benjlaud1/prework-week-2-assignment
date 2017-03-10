@@ -24,15 +24,16 @@ function thePizzeria() {
         return yetAnotherValue;
     };
 
-    // michelangelo(theNumber) + leonardo(theNumber);
+    console.log(michelangelo(theNumber) + leonardo(theNumber));
     // ^ Before running the script, what number would you expect the line above to evaluate to?
-    console.log(/* Replace this comment with your answer */);
+    console.log('My guess: 7');
 
 
     theNumber = theNumber * 2;
 
-    // donatello(theNumber, 2) - (raphael(3, 2, theNumber);
+    console.log(donatello(theNumber, 2) - raphael(3, 2, theNumber));
     // ^ Before running the script, what number would you expect the line above to evaluate to?
-    console.log(/* Replace this comment with your answer */);
+    console.log('My guess: 8');
 
 }
+thePizzeria();
