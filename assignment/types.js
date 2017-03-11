@@ -8,7 +8,7 @@ var aBoolean = true;
 var anArray = ['First array' , 209 , true];
 var nonObject;
 
-var theDoubler = function (someInput) {
+function theDoubler (someInput) {
 	// typeof is a built in javascript tool that allows us to find the type of an object
     // for number, we have given an example of how that works
 	if (typeof someInput === "number") {
@@ -35,7 +35,7 @@ var theDoubler = function (someInput) {
 	// if it's none of those, but it is an object, log "everything is an object"
 	// if it is anything else, print out "I can't double this"
 
-};
+}
 
 theDoubler(aNumber);
 theDoubler(aString);

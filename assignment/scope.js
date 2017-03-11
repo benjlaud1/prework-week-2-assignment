@@ -33,7 +33,8 @@ function thePizzeria() {
 
     console.log(donatello(theNumber, 2) - raphael(3, 2, theNumber));
     // ^ Before running the script, what number would you expect the line above to evaluate to?
-    console.log('My guess: 8');
+    console.log('My guess: originally 6 but realised I missed the line "theNumber = theNumber *2"');
+    console.log('Redid calculations and got 8');
 
 }
 thePizzeria();
